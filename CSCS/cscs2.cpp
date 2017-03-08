@@ -1,3 +1,7 @@
+/*
+This is the CSCS algorithm for estimation of the cholesky parameter of the precision matrix written in Rcpp for improved speed 
+ */
+
 #include <cmath>
 #include <Rcpp.h>
 // [[Rcpp::depends(RcppArmadillo)]]
