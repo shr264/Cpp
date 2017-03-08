@@ -16,9 +16,9 @@ double soft_thresh(double xx, double lambda) {
   }
   if(xx>0){
     temp2 = 1.0;
-  } else {
+  } else if(xx<0){
     temp2 = -1.0;
-  }
+  } else {temp2 = 0;}
   return(temp2*temp1);
 }
 
