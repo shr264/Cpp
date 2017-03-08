@@ -1,0 +1,11 @@
+library(Matrix)
+library(MASS)
+library(spam)
+library(igraph)
+library(microbenchmark)
+library(lassoshooting)
+library(ggplot2)
+library(Rcpp)
+library(RcppArmadillo)
+sourceCpp("cscs2.cpp")
+
